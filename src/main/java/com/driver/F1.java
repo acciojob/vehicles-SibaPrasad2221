@@ -25,31 +25,31 @@ public class F1 extends Car {
             changeGear(1);
             stop();
         }
-//        else{
-//            if(newSpeed>=1 && newSpeed<=50){
-////                changeSpeed(newSpeed, getCurrentDirection());
-//                changeGear(1);
-//            }
-//            else if(newSpeed>=51 && newSpeed<=100){
-////                changeSpeed(newSpeed, getCurrentDirection());
-//                changeGear(2);
-//            }
-//            else if(newSpeed>=101 && newSpeed<=150){
-////                changeSpeed(newSpeed, getCurrentDirection());
-//                changeGear(3);
-//            }
-//            else if(newSpeed>=151 && newSpeed<=200){
-////                changeSpeed(newSpeed, getCurrentDirection());
-//                changeGear(4);
-//            }
-//            else if(newSpeed>=201 && newSpeed<=250){
-////                changeSpeed(newSpeed, getCurrentDirection());
-//                changeGear(5);
-//            }
-//            else{
-//                changeGear(6);
-//            }
-//        }
+        else{
+            if(newSpeed>=1 && newSpeed<=50){
+//                changeSpeed(newSpeed, getCurrentDirection());
+                changeGear(1);
+            }
+            else if(newSpeed>=51 && newSpeed<=100){
+//                changeSpeed(newSpeed, getCurrentDirection());
+                changeGear(2);
+            }
+            else if(newSpeed>=101 && newSpeed<=150){
+//                changeSpeed(newSpeed, getCurrentDirection());
+                changeGear(3);
+            }
+            else if(newSpeed>=151 && newSpeed<=200){
+//                changeSpeed(newSpeed, getCurrentDirection());
+                changeGear(4);
+            }
+            else if(newSpeed>=201 && newSpeed<=250){
+//                changeSpeed(newSpeed, getCurrentDirection());
+                changeGear(5);
+            }
+            else{
+                changeGear(6);
+            }
+        }
         //for all other cases, change the gear accordingly
 
         if(newSpeed > 0) {
